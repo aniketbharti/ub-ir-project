@@ -1,0 +1,112 @@
+{
+    "add-field": [
+        {
+            "name": "poi_name",
+            "type": "string",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "poi_id",
+            "type": "plong",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "verified",
+            "type": "boolean",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "country",
+            "type": "string",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "replied_to_tweet_id",
+            "type": "plong",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "replied_to_user_id",
+            "type": "plong",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "reply_text",
+            "type": "text_general",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "tweet_text",
+            "type": "text_general",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "tweet_lang",
+            "type": "string",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "text_en",
+            "type": "text_en",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "text_hi",
+            "type": "text_hi",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "text_es",
+            "type": "text_es",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "hashtags",
+            "type": "strings",
+            "multiValued": true,
+            "indexed": true
+        },
+        {
+            "name": "mentions",
+            "type": "strings",
+            "multiValued": true,
+            "indexed": true
+        },
+        {
+            "name": "tweet_urls",
+            "type": "strings",
+            "multiValued": true,
+            "indexed": true
+        },
+        {
+            "name": "tweet_emoticons",
+            "type": "strings",
+            "multiValued": true,
+            "indexed": true
+        },
+        {
+            "name": "tweet_date",
+            "type": "pdate",
+            "multiValued": false,
+            "indexed": true
+        },
+        {
+            "name": "geolocation",
+            "type": "string",
+            "multiValued": true,
+            "indexed": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "pois": {
+        "poi_id": "user.id",
+        "poi_name": "user.screen_name",
+        "verified": "user.verified",
+        "id": "id",
+        "replied_to_tweet_id": "in_reply_to_status_id",
+        "replied_to_user_id": "in_reply_to_user_id",
+        "tweet_text": "text",
+        "tweet_lang": "lang",
+        "hashtags": "entities.hashtags",
+        "mentions": "entities.user_mentions",
+        "tweet_urls": "entities.urls",
+        "tweet_date": "created_at",
+        "geolocation": "place.bounding_box.coordinates"
+    },
+    "keywords": {
+        "poi_id": "user.id",
+        "poi_name": "user.screen_name",
+        "verified": "user.verified",
+        "id": "id",
+        "replied_to_tweet_id": "in_reply_to_status_id",
+        "replied_to_user_id": "in_reply_to_user_id",
+        "tweet_text": "full_text",
+        "tweet_lang": "lang",
+        "hashtags": "entities.hashtags",
+        "mentions": "entities.user_mentions",
+        "tweet_urls": "entities.urls",
+        "tweet_date": "created_at",
+        "geolocation": "place.bounding_box.coordinates"
+    }
+}

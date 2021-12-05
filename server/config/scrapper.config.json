@@ -1,0 +1,27 @@
+{
+    "pois": [
+        {
+            "id": 11,
+            "screen_name": "narendramodi",
+            "country": "India",
+            "count": 500,
+            "tweet_id_list": [],
+            "last_collected_tweet": "",
+            "retweet_count": 0,
+            "replies_id_list": []
+        },
+        {
+            "id": 1,
+            "screen_name": "SSalud_mx",
+            "country": "Mexico",
+            "count": 500,
+            "tweet_id_list": [],
+            "last_collected_tweet": "",
+            "retweet_count": 0,
+            "replies_id_list": []
+        }
+    ],
+    "keywords": [
+        
+    ]
+}
